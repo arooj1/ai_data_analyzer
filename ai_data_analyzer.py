@@ -3,6 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Add the website link at the top
+st.markdown("""
+<div style='text-align: right; font-size: 14px;'>
+    <br>
+    Visit our website: <a href='https://www.gqci.ca' target='_blank'>www.gqci.ca</a>
+</div>
+""", unsafe_allow_html=True)
 # Streamlit app title
 st.title("AI Data Analyzer")
 st.subheader("Enter any data file and make data driven decisions!")
