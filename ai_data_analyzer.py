@@ -10,6 +10,9 @@ st.markdown("""
     Visit our website: <a href='https://www.gqci.ca' target='_blank'>www.gqci.ca</a>
 </div>
 """, unsafe_allow_html=True)
+
+# Add logo 
+st.image("logo.png", width=400)  # Adjust width as needed
 # Streamlit app title
 st.title("AI Data Analyzer")
 st.subheader("Enter any data file and make data driven decisions!")
