@@ -12,7 +12,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Add logo 
-st.image("logo.png", width=400)  # Adjust width as needed
+st.image("logo.png", width=200)  # Adjust width as needed
 # Streamlit app title
 st.title("AI Data Analyzer")
 st.subheader("Enter any data file and make data driven decisions!")
