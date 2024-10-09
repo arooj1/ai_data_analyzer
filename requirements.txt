@@ -1,4 +1,4 @@
-ipython==3.9
+ipython
 streamlit
 pandas
 matplotlib
