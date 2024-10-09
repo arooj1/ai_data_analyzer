@@ -57,3 +57,11 @@ if uploaded_file is not None:
 
 else:
     st.write("Upload a file to begin analysis.")
+
+# Add the website link at the bottom
+st.markdown("""
+<div style='text-align: center; font-size: 14px;'>
+    <br>
+    Visit our website: <a href='https://www.gqci.ca' target='_blank'>www.gqci.ca</a>
+</div>
+""", unsafe_allow_html=True)
