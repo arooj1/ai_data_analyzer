@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Streamlit app title
 st.title("AI Data Analyzer")
-
+st.subheader("Enter any data file and make data driven decisions!")
 # Sidebar for file upload and settings
 st.sidebar.header("Upload your file")
 uploaded_file = st.sidebar.file_uploader("Choose a file (CSV, Excel, or TXT)", type=["csv", "xlsx", "xls", "txt"])
